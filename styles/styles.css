@@ -2,48 +2,76 @@ a {
     text-decoration: none;
 }
 
-a img {
-    width: 50px;
+header{
+    background-color:rgb(204, 202, 214);
+    border:4px solid;
+    border-bottom: none;
 }
 
-/* input{
+#mywebpage{
+    text-align:center;
+    font-weight: bold;
+}
+
+img {width: 40px; height: 40px; 
+    padding-right: 20px;
+}
+
+input{
 
     top: 3px;
     left: 24px;
     width: 200px;
-} */
+}
 
-#text1{
+/* #text1{
     width: 150px;
     height: 30px;
     margin: 0 10px;
-}
-
-#search {
-    position: absolute;
-    width: 30px;
-}
-
-
-h1{
-    margin-top: 20px ;
-    margin-left: 300px;
-}
-/* text{
-    margin-top: 50px ;
-    margin-left: 300px;
 } */
-footer{
-    font-size: 20px;
-    width: 50px;
+
+ .search {
+    /* background-image: url(../img/magnifyingGlass.png); */
+    background-size: 5px;
+    /* position: absolute; */
+    /* width: 10px; height: 10px;
+    padding-left: 40px;  */
+    border-radius: 40px;
+} 
+
+.info {
+    margin-bottom: 200px;
+    border: 4px solid;
+    border-bottom: none;
 }
 
-.mystyle{
+.info p {
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+li {list-style-type: none;
+    
+}
+
+
+
+textarea{    
+    width: 80%;
+}
+
+footer{
+    border: 4px solid;
+   
+}
+
+/* .mystyle{
     color: blueviolet;
     float: center;
 
 }
 .special{
-    color: pink;
+    color: pink; */
 
 }
